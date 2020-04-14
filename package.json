@@ -1,0 +1,25 @@
+{
+  "name": "scanner",
+  "version": "1.0.0",
+  "description": "isbn barcode scanner",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikkiricks/isbn-scanner.git"
+  },
+  "author": "nikki ricks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikkiricks/isbn-scanner/issues"
+  },
+  "homepage": "https://github.com/nikkiricks/isbn-scanner#readme",
+  "dependencies": {
+    "barcodelookup": "^1.0.4",
+    "dotenv": "^8.2.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  }
+}
