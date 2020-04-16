@@ -1,5 +1,4 @@
 var request = require('request-promise');
-
 require('dotenv').config();
 
 let options = {
