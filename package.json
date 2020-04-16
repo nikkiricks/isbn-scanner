@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/nikkiricks/isbn-scanner#readme",
   "dependencies": {
+    "@zxing/library": "^0.16.3",
     "barcodelookup": "^1.0.4",
     "dotenv": "^8.2.0",
     "request": "^2.88.2",

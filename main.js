@@ -3,7 +3,7 @@ require('dotenv').config();
 
 let options = {
     method: 'GET',
-    uri: `https://www.goodreads.com/search/index.xml?${process.env.key}&q=9788877547224`,
+    uri: `https://www.goodreads.com/search/index.xml?${process.env.key}&q=document.${getElementById("result").textContent}`,
     qs: {
         key: process.env.KEY,
         v: process.env.VERSION,
@@ -11,6 +11,7 @@ let options = {
         per_page: process.env.PER_PAGE
     }
 }
+console.log(options.uri)
 
 request(options).then((shelf) => {
     console.log(shelf);
